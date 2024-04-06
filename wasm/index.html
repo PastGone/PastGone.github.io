@@ -136,39 +136,9 @@
       href="Legend Of This World.apple-touch-icon.png"
     />
     <script src="coi-serviceworker.min.js"></script>
-    <script src="_framework/blazor.webassembly.js" autostart="false"></script>
+    <script src="decode.min.js"></script>
 
-    <script type="module">
-      import { BrotliDecode } from "decode.min.js";
-      Blazor.start({
-        loadBootResource: function (type, name, defaultUri, integrity) {
-          if (type !== "dotnetjs" && location.hostname !== "localhost") {
-            return (async function () {
-              const response = await fetch(defaultUri + ".br", {
-                cache: "no-cache",
-              });
-              if (!response.ok) {
-                throw new Error(response.statusText);
-              }
-              const originalResponseBuffer = await response.arrayBuffer();
-              const originalResponseArray = new Int8Array(
-                originalResponseBuffer
-              );
-              const decompressedResponseArray = BrotliDecode(
-                originalResponseArray
-              );
-              const contentType =
-                type === "dotnetwasm"
-                  ? "application/wasm"
-                  : "application/octet-stream";
-              return new Response(decompressedResponseArray, {
-                headers: { "content-type": contentType },
-              });
-            })();
-          }
-        },
-      });
-    </script>
+    <!-- <link rel="preload" as="script" href="https://a.xxx.com/xxx/TabsPc.js" /> -->
   </head>
   <body>
     <canvas id="canvas">
@@ -208,8 +178,8 @@
         executable: "Legend Of This World",
         experimentalVK: false,
         fileSizes: {
-          "Legend Of This World.pck": 100544,
-          "Legend Of This World.wasm": 1758196,
+          "Legend Of This World.pck": 100560,
+          "Legend Of This World.wasm": 35649444,
         },
         focusCanvas: true,
         gdextensionLibs: [],
