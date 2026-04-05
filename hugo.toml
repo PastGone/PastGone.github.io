@@ -1,0 +1,7 @@
+baseURL = 'https://pastgone.github.io/' # 记得改成你的 GitHub 用户名
+languageCode = 'zh-cn'
+title = '我的个人博客'
+theme = 'PaperMod'
+
+[params]
+    env = 'production'
