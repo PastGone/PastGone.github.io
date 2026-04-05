@@ -1,1 +1,131 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>我的个人博客</title><link>https://pastgone.github.io/</link><description>Recent content on 我的个人博客</description><generator>Hugo</generator><language>zh-cn</language><atom:link href="https://pastgone.github.io/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>我的个人博客</title><link>https://pastgone.github.io/</link><description>Recent content on 我的个人博客</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 06 Apr 2026 01:09:58 +0800</lastBuildDate><atom:link href="https://pastgone.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>linux 使用</title><link>https://pastgone.github.io/posts/linux%E4%BD%BF%E7%94%A8/</link><pubDate>Mon, 06 Apr 2026 01:09:58 +0800</pubDate><guid>https://pastgone.github.io/posts/linux%E4%BD%BF%E7%94%A8/</guid><description>&lt;h1 id="linux-使用"&gt;linux 使用&lt;/h1&gt;
+&lt;h2 id="美化"&gt;美化&lt;/h2&gt;
+&lt;p&gt;系统美化可分为&lt;br&gt;
+主题，wm 主题，&lt;br&gt;
+gtk：
+&lt;a href="https://github.com/vinceliuice/WhiteSur-gtk-theme"&gt;https://github.com/vinceliuice/WhiteSur-gtk-theme&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;qt：kvantummanager + &lt;a href="https://github.com/vinceliuice/WhiteSur-kde/tree/master/Kvantum"&gt;https://github.com/vinceliuice/WhiteSur-kde/tree/master/Kvantum&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;图标，&lt;a href="https://github.com/vinceliuice/WhiteSur-icon-theme"&gt;https://github.com/vinceliuice/WhiteSur-icon-theme&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;鼠标指针，&lt;a href="https://github.com/ful1e5/apple_cursor"&gt;https://github.com/ful1e5/apple_cursor&lt;/a&gt; macOS-White&lt;/p&gt;
+&lt;p&gt;字体，&lt;br&gt;
+字体选maple nomal nl nf cn，重点是nl nf cn ，不连字，带图标，支持中文，nomal 主要是宽一点。&lt;/p&gt;
+&lt;p&gt;grub 主题，感觉，没啥好看的。refind 倒是有不少好看的。&lt;/p&gt;
+&lt;p&gt;软件美化主要是输入法
+fcitx5 &lt;a href="https://github.com/Passthem-desu/fcitx5-theme-pt-cute-light"&gt;https://github.com/Passthem-desu/fcitx5-theme-pt-cute-light&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="输入法"&gt;输入法&lt;/h2&gt;
+&lt;p&gt;使用 fcitx5&lt;br&gt;
+fcitx5 yun pingyin 和 fcitx5 rime 都不错。&lt;br&gt;
+yun pingyin 联想好用&lt;br&gt;
+rime 主要有词库支持&lt;br&gt;
+安装时注意在
+~/.profile 里启用，写一堆配置。&lt;br&gt;
+可以有皮肤美化。&lt;/p&gt;
+&lt;h2 id="软件推荐"&gt;软件推荐&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;任务管理器&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;经典桌面自带的，简陋如lxqt 和xfce。&lt;br&gt;
+GNOME System Monitor 还行，有点难看，逻辑一般&lt;br&gt;
+kde 的，别的桌面无法使用&lt;br&gt;
+第三方，&lt;br&gt;
+好看的，
+Mission Center占用大，他不是gtk 写的吗。。。。。&lt;br&gt;
+Resources功能不完善。&lt;br&gt;
+所以最终选择system-monitoring-center，这个还行。功能完善，界面不丑。&lt;br&gt;
+终端 tui bop&lt;br&gt;
+所以卸载那些其他的，使用system-monitoring-center，bop&lt;br&gt;
+2. 可视化包管理工具&lt;br&gt;
+新立得 deb 够用。&lt;br&gt;
+aur pamac 有缺点，占用大，但最好用&lt;br&gt;
+3. 文本编辑器&lt;br&gt;
+notepad 级:&lt;br&gt;
+mousepad_vs_pluma,这两个都不错。&lt;br&gt;
+不过。mousepad空空间占用少一些。内存占用差不多。&lt;br&gt;
+pluma功能强一点点。&lt;br&gt;
+编辑器级：&lt;br&gt;
+太多了，&lt;br&gt;
+什么notepad&amp;ndash;，Geany，CudaText，BowPad都不错。&lt;br&gt;
+IDE级：
+vscode与其类似物。&lt;/p&gt;</description></item><item><title>markdown 测试</title><link>https://pastgone.github.io/posts/markdown_test/</link><pubDate>Mon, 06 Apr 2026 01:09:58 +0800</pubDate><guid>https://pastgone.github.io/posts/markdown_test/</guid><description>&lt;h1 id="markdown-reference"&gt;Markdown Reference&lt;/h1&gt;
+&lt;p&gt;Automatically generate &lt;em&gt;table of contents&lt;/em&gt; by checking the option here: &lt;code&gt;Settings &amp;gt; Format &amp;gt; Markdown&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id="h2-header"&gt;H2 Header&lt;/h2&gt;
+&lt;h3 id="h3-header"&gt;H3 header&lt;/h3&gt;
+&lt;h4 id="h4-header"&gt;H4 Header&lt;/h4&gt;
+&lt;h5 id="h5-header"&gt;H5 Header&lt;/h5&gt;
+&lt;h6 id="h6-header"&gt;H6 Header&lt;/h6&gt;
+&lt;h2 id="format-text"&gt;Format Text&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Italic emphasis&lt;/em&gt; , &lt;em&gt;Alternative italic emphasis&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bold emphasis&lt;/strong&gt; , &lt;strong&gt;Alternative bold emphasis&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;Strikethrough&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;Break line (two spaces at end of line)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Block quote&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;code&gt;Inline code&lt;/code&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;Code blocks
+are
+awesome
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="lists"&gt;Lists&lt;/h2&gt;
+&lt;h3 id="ordered--unordered"&gt;Ordered &amp;amp; unordered&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Unordered list&lt;/li&gt;
+&lt;li&gt;&amp;hellip;with asterisk/star&lt;/li&gt;
+&lt;li&gt;Test&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Another unordered list&lt;/li&gt;
+&lt;li&gt;&amp;hellip;with hyphen/minus&lt;/li&gt;
+&lt;li&gt;Test&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;Ordered list&lt;/li&gt;
+&lt;li&gt;Test&lt;/li&gt;
+&lt;li&gt;Test&lt;/li&gt;
+&lt;li&gt;Test&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Nested lists
+&lt;ul&gt;
+&lt;li&gt;Unordered nested list&lt;/li&gt;
+&lt;li&gt;Test&lt;/li&gt;
+&lt;li&gt;Test&lt;/li&gt;
+&lt;li&gt;Test&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Ordered nested list
+&lt;ol&gt;
+&lt;li&gt;Test&lt;/li&gt;
+&lt;li&gt;Test&lt;/li&gt;
+&lt;li&gt;Test&lt;/li&gt;
+&lt;li&gt;Test&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Double-nested unordered list
+&lt;ul&gt;
+&lt;li&gt;Test&lt;/li&gt;
+&lt;li&gt;Unordered
+&lt;ul&gt;
+&lt;li&gt;Test a&lt;/li&gt;
+&lt;li&gt;Test b&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Ordered
+&lt;ol&gt;
+&lt;li&gt;Test 1&lt;/li&gt;
+&lt;li&gt;Test 2&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="checklist"&gt;Checklist&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Salad&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Potatoes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Clean&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Cook&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="links"&gt;Links&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://duckduckgo.com/"&gt;Link&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
